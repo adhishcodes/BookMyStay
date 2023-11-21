@@ -1,0 +1,30 @@
+.siemail {
+    border-radius: 10%;
+    background-color: darkgrey;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.Menu {
+    color: black;
+    display: grid;
+    background-color: rgb(12,100,179);
+    grid-template-columns: 1000px auto auto auto;
+    grid-template-rows: 65px;
+}
+
+.item1 {
+    background-color: rgb(12,100,179);
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: start;
+    margin-left: 15px;
+    margin-top: 10px;
+}

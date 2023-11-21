@@ -1,0 +1,170 @@
+
+ .Menu
+ {
+     color: black;
+     display: grid;
+     background-color: rgb(12,100,179);
+     grid-template-columns: 1000px auto auto auto;
+     grid-template-rows: 65px;
+ }
+ .items
+ {
+   display: flex;
+   justify-content:space-evenly;
+   width: 100%;
+ }
+ .item1
+ {
+     background-color: rgb(12,100,179);
+     color:white;
+     font-size:xx-large;
+     font-weight:bold;
+     text-align: start;
+     font-family: Roboto Mono;
+ }
+ .popover {
+     position: absolute;
+     top: calc(100% + 5px);
+     left: 0;
+     background-color: white;
+     border: 1px solid #ccc;
+     padding: 10px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+     z-index: 1;
+     color: black;
+   }
+ .popover1
+ {
+     position: absolute;
+     top: calc(100% + 5px);
+     left: 0;
+     background-color: white;
+     border: 1px solid #ccc;
+     padding: 10px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+     z-index: 1;
+     color: black;
+ }
+ .item2
+ {
+   height: 60px;
+   position: relative;
+   display: inline-block;
+   background-color: rgb(12,100,179);
+   color: white;
+   display: grid;
+   font-weight: bold;
+   place-items: center;
+   transition: background-color 0.3s ease;
+   border: none;
+   cursor: pointer;
+   font-family: Roboto Mono;
+ 
+ }
+ .about
+ {
+     
+     position: relative;
+     display: inline-block;
+     background-color: rgb(12,100,179);
+     color:white;
+     display: grid;
+     font-weight: bold;
+     place-items: center;
+     
+ }
+ .search
+ {
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     height: 450px;
+     justify-content: space-evenly;
+     overflow: hidden;
+     background-color: rgb(12,100,179);
+ }
+ .MuiOutlinedInput-notchedOutline {
+     border-width: 3px !important;
+     border-color:black  !important;
+   }
+   
+   .Mui-focused .MuiOutlinedInput-notchedOutline {
+     border-color:black !important;
+   }
+   .submit
+   {
+     height: 59px;
+     width: 200px;
+     color: white;
+   }
+   .dup
+   {
+     color:black
+   }
+   .city
+   {
+     height: 55px;
+     margin-top: 11px;
+     margin-bottom: 0px;
+   }
+   .about
+   {
+      width: 100%;
+      height: 50px;
+   }
+   .aboutmain
+   {
+     background-color: aliceblue;
+   }
+   .des
+   {
+     margin-left: 2%;
+     margin-top:2%;
+     margin-right: 2%;
+   }
+   .cont
+   {
+     background-color: white;
+     display: grid;
+     height: 45%;
+     width: 76%;
+     border-radius: 10px;
+     font-weight: bolder;
+   }
+   .cont1
+   {
+      display: grid;
+      place-items: center;
+      font-size: x-large;
+      font-family: kanit;
+   }
+   .cont2
+   {
+     height:100%;
+     display: grid;
+     place-items: center;
+     grid-template-columns: auto auto auto auto auto;
+ 
+   }
+   .sp
+   {
+     height: 2px;
+     background-color: white;
+   }
+   .dest
+   {
+       display: grid;
+       place-items: center;
+       margin-bottom: 0px;
+       font-family: Manrope;
+   }
+ .target-element
+ {
+   margin-top:5.7%;
+   font-family:Roboto Mono;
+   font-size: 90%;
+ }
+ .typo
+ {
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }

@@ -1,0 +1,21 @@
+/* styles.css */
+.quote-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .blockquote {
+    font-style: italic;
+    margin: 0;
+  }
+  
+  cite {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    font-style: normal;
+  }
+  
